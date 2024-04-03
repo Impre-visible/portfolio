@@ -7,8 +7,8 @@
       <div class="star-border"></div>
     </div>
     <h3 class="exa">Hi, I'm Roméo</h3>
-    <h1 class="giga">a Fullstack developer</h1>
-    <h2 class="exa">a student, and a freelancer</h2>
+    <h1 class="giga text-stroke">a Fullstack developer</h1>
+    <h2 class="exa text-stroke">a student, and a freelancer</h2>
     <button class="giga">Learn more</button>
   </article>
   <article class="presentation"></article>

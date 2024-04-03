@@ -43,20 +43,19 @@ main {
   min-height: 100dvh;
 }
 
+.text-stroke {
+  text-shadow: 0px -1px 0px var(--border-color), 0px 1px 0px var(--border-color),
+    -1px 0px 0px var(--border-color), 1px 0px 0px var(--border-color);
+}
+
 .exa {
   font-family: "Lexend Exa", sans-serif;
-  text-stroke: 0.5px var(--border-color);
-  -webkit-text-stroke: 0.5px var(--border-color);
 }
 
 .deca {
   font-family: "Lexend Deca", sans-serif;
-  text-stroke: 0.5px var(--border-color);
-  -webkit-text-stroke: 0.5px var(--border-color);
 }
 
 .giga {
   font-family: "Lexend Giga", sans-serif;
-  text-stroke: 0.5px var(--border-color);
-  -webkit-text-stroke: 0.5px var(--border-color);
 }

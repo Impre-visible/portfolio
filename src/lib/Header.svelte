@@ -19,11 +19,17 @@
 
 <div class="headerContainer">
   <div class="header">
-    <a href="#home" class="giga active" on:click={handleClick}>Home</a>
-    <a href="#github" class="giga" on:click={handleClick}>Github</a>
-    <a href="#showcase" class="giga" on:click={handleClick}>Showcase</a>
-    <a href="#skills" class="giga" on:click={handleClick}>Skills</a>
-    <a href="#socials" class="giga" on:click={handleClick}>Socials</a>
+    <a href="#home" class="giga active text-stroke" on:click={handleClick}
+      >Home</a
+    >
+    <a href="#github" class="giga text-stroke" on:click={handleClick}>Github</a>
+    <a href="#showcase" class="giga text-stroke" on:click={handleClick}
+      >Showcase</a
+    >
+    <a href="#skills" class="giga text-stroke" on:click={handleClick}>Skills</a>
+    <a href="#socials" class="giga text-stroke" on:click={handleClick}
+      >Socials</a
+    >
   </div>
 </div>
 
