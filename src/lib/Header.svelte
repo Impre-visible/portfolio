@@ -4,6 +4,7 @@
     e.preventDefault();
     if (link == null) return;
     if (link.getAttribute("href") == null) return;
+    // @ts-ignore
     const id = link.getAttribute("href").slice(1);
     const section = document.getElementById(id);
     if (!section) return;
@@ -35,6 +36,7 @@
 
 <style>
   .headerContainer {
+    z-index: 999;
     position: fixed;
     display: flex;
     justify-content: center;

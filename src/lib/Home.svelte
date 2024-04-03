@@ -62,11 +62,16 @@
       border-radius: 32px;
       background: var(--yellow);
       padding: 16px 24px;
-      width: fit-content;
       font-size: 24px;
+      width: 15rem;
+      text-wrap: nowrap;
+      height: 4rem;
+      min-height: 4rem;
+      font-weight: 600;
     }
 
-    button:hover {
+    button:hover,
+    button:active {
       margin-left: 4px;
       margin-top: 4px;
       box-shadow: 1px 1px var(--black);
@@ -74,9 +79,11 @@
     }
 
     button:active {
-      margin-left: 8px;
-      margin-top: 8px;
-      box-shadow: var(--reverse-box-shadow);
+      box-shadow: var(--invert-box-shadow);
+      padding: 16px 24px;
+      padding-top: 20px;
+      padding-left: 32px;
+      text-wrap: nowrap;
     }
   }
 

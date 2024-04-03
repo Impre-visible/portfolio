@@ -6,9 +6,11 @@
   /* Recurrent */
   --border: 2px solid var(--border-color);
   --box-shadow: 4px 4px black;
-  --reverse-box-shadow: inset 4px 4px rgba(0, 0, 0, 0.5);
+  --reverse-box-shadow: -4px 4px black;
+  --invert-box-shadow: inset 4px 4px rgba(0, 0, 0, 0.5);
   --big-box-shadow: 10px 10px black;
-  --reverse-big-box-shadow: -10px -10px black;
+  --reverse-big-box-shadow: -10px 10px black;
+  --invert-big-box-shadow: -10px -10px black;
 
   /* Colors */
   --white: #f5f5ef;
@@ -30,6 +32,14 @@
 
 *:not(body) {
   transition: all 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
 }
 
 body {
