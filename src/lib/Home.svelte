@@ -69,7 +69,14 @@
     button:hover {
       margin-left: 4px;
       margin-top: 4px;
-      box-shadow: none;
+      box-shadow: 1px 1px var(--black);
+      cursor: pointer;
+    }
+
+    button:active {
+      margin-left: 8px;
+      margin-top: 8px;
+      box-shadow: var(--reverse-box-shadow);
     }
   }
 
