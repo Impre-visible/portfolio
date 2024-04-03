@@ -35,6 +35,7 @@
     flex-direction: column;
     gap: 24px;
     height: fit-content;
+    max-height: 33.5dvh;
 
     h3 {
       font-size: 24px;
@@ -63,6 +64,12 @@
       padding: 16px 24px;
       width: fit-content;
       font-size: 24px;
+    }
+
+    button:hover {
+      margin-left: 4px;
+      margin-top: 4px;
+      box-shadow: none;
     }
   }
 
