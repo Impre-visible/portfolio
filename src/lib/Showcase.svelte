@@ -42,7 +42,9 @@
           we guide you every step of the way.
         </p>
       </section>
-      <button class="giga" on:click={() => window.open("", "_blank")}
+      <button
+        class="giga"
+        on:click={() => window.open("https://v-tools.fr", "_blank")}
         >Open the website</button
       >
     </section>
