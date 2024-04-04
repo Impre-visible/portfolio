@@ -95,7 +95,7 @@
   #github {
     background: url("src/assets/github_background.svg");
     height: 105dvh;
-    margin-top: -15dvh;
+    margin-top: -18dvh;
     width: 100vw;
     background-size: cover;
   }
