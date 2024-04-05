@@ -13,6 +13,9 @@
   </article>
   <article class="presentation"></article>
 </section>
+<div class="doodle"></div>
+<div class="doodle"></div>
+<div class="doodle"></div>
 
 <style lang="scss">
   #home {
@@ -22,6 +25,8 @@
     padding: 7vw 5vw;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: -1;
   }
 
   article.card {
@@ -87,6 +92,37 @@
       text-wrap: nowrap;
       white-space: nowrap;
     }
+  }
+  .doodle {
+    width: 3vmax;
+    height: 3vmax;
+    border-radius: 5%;
+    border: 0.5vmin solid black;
+    position: absolute;
+  }
+
+  .doodle:nth-child(3) {
+    background: var(--yellow);
+    bottom: 2.5vmax;
+    left: 21.4vmax;
+    position: absolute;
+    transform: rotate(77.33deg);
+    box-sizing: border-box;
+  }
+
+  .doodle:nth-child(4) {
+    background: var(--light-blue);
+    bottom: 9.25vmax;
+    left: 44.25vmax;
+    transform: rotate(45deg);
+  }
+
+  .doodle:nth-child(5) {
+    background: var(--orange);
+    bottom: 2.35vmax;
+    left: 67.2vmax;
+    transform: rotate(-118.75deg);
+    transform: rotate(-118.75deg);
   }
 
   .starContainer {
