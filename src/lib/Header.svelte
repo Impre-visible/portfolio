@@ -52,8 +52,8 @@
   };
 </script>
 
-<div class="headerContainer">
-  <div class="header">
+<section class="headerContainer">
+  <section class="header">
     <a href="#home" class="giga active text-stroke" on:click={handleClick}
       >Home</a
     >
@@ -65,8 +65,8 @@
     <a href="#socials" class="giga text-stroke" on:click={handleClick}
       >Socials</a
     >
-  </div>
-</div>
+  </section>
+</section>
 
 <style>
   .headerContainer {
