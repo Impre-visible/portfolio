@@ -174,6 +174,7 @@
     font-size: 18px;
     width: 8rem;
     text-wrap: nowrap;
+    white-space: nowrap;
     height: 2.25rem;
     min-height: 2.25rem;
     font-weight: bold;
@@ -194,5 +195,6 @@
     padding-top: 6px;
     padding-left: 6px;
     text-wrap: nowrap;
+    white-space: nowrap;
   }
 </style>

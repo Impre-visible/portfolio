@@ -65,6 +65,7 @@
       font-size: 24px;
       width: 15rem;
       text-wrap: nowrap;
+      white-space: nowrap;
       height: 4rem;
       min-height: 4rem;
       font-weight: 600;
@@ -84,6 +85,7 @@
       padding-top: 20px;
       padding-left: 32px;
       text-wrap: nowrap;
+      white-space: nowrap;
     }
   }
 

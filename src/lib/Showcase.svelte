@@ -130,6 +130,7 @@
     font-size: 18px;
     width: 16rem;
     text-wrap: nowrap;
+    white-space: nowrap;
     height: 3rem;
     min-height: 3rem;
     font-weight: bold;
@@ -150,5 +151,6 @@
     padding-top: 6px;
     padding-left: 6px;
     text-wrap: nowrap;
+    white-space: nowrap;
   }
 </style>
