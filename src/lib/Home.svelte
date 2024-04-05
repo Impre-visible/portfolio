@@ -11,7 +11,21 @@
     <h2 class="exa text-stroke">a student, and a freelancer</h2>
     <button class="giga">Learn more</button>
   </article>
-  <article class="presentation"></article>
+  <article class="presentation">
+    <button
+      class="vscode"
+      on:click={() =>
+        window.open("https://itsfoss.com/vs-code-vs-codium/", "_blank")}
+    >
+      <img src="src/assets/vscode.svg" alt="vscode" />
+    </button>
+    <button
+      class="git"
+      on:click={() => window.open("https://github.com/Impre-visible", "_blank")}
+    >
+      <img src="src/assets/git.svg" alt="git" />
+    </button>
+  </article>
 </section>
 <div class="doodle"></div>
 <div class="doodle"></div>
@@ -25,8 +39,6 @@
     padding: 7vw 5vw;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    z-index: -1;
   }
 
   article.card {
@@ -301,9 +313,10 @@
     --margin: 10%;
   }
 
-  .presentation::before,
-  .presentation::after {
-    content: "";
+  .vscode,
+  .git {
+    cursor: pointer;
+    pointer-events: all;
     position: absolute;
     background: var(--light-blue);
     padding: 16px 24px;
@@ -312,8 +325,7 @@
     border-radius: 40px;
   }
 
-  .presentation::before {
-    content: url("src/assets/vscode.svg");
+  .vscode {
     border-bottom-right-radius: 5px;
     padding: 16px 32px;
     left: calc(var(--margin) - 24px - 4%);
@@ -321,8 +333,7 @@
     animation: move1 2s infinite ease-in-out;
   }
 
-  .presentation::after {
-    content: url("src/assets/git.svg");
+  .git {
     border-bottom-left-radius: 5px;
     right: var(--margin);
     animation: move2 2.25s infinite ease-in-out;
