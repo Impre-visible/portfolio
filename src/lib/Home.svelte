@@ -115,8 +115,8 @@
 
   .doodle:nth-child(3) {
     background: var(--yellow);
-    bottom: 2.5vmax;
-    left: 21.4vmax;
+    bottom: 1.5vmax;
+    left: 20vmax;
     position: absolute;
     transform: rotate(77.33deg);
     box-sizing: border-box;
@@ -124,15 +124,15 @@
 
   .doodle:nth-child(4) {
     background: var(--light-blue);
-    bottom: 9.25vmax;
-    left: 44.25vmax;
+    bottom: 7.85vmax;
+    left: 41.5vmax;
     transform: rotate(45deg);
   }
 
   .doodle:nth-child(5) {
     background: var(--orange);
-    bottom: 2.35vmax;
-    left: 67.2vmax;
+    bottom: 1.35vmax;
+    left: 63.2vmax;
     transform: rotate(-118.75deg);
     transform: rotate(-118.75deg);
   }
