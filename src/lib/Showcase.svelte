@@ -28,10 +28,7 @@
   </article>
   <article id="vtools">
     <section class="left">
-      <img
-        src="https://media.discordapp.net/attachments/1164565885709725747/1225168019437654026/image.png?ex=662025a2&is=660db0a2&hm=f1c584482a791af14d47958a18b81c86e407ba654e51790a0e98a61521d8c4e2&"
-        alt="V-Tools"
-      />
+      <img src="src/assets/v-tools.png" alt="V-Tools" />
     </section>
     <section class="right">
       <section class="text">
