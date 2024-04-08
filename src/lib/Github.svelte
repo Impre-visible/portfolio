@@ -163,6 +163,7 @@
     justify-content: space-evenly;
     gap: 20px;
     padding-top: 16%;
+    pointer-events: none;
   }
   .repo {
     background: var(--white);
@@ -173,7 +174,7 @@
     flex-direction: column;
     gap: 18px;
     width: 15vw;
-    height: 40dvh;
+    min-height: 40dvh;
     justify-content: space-between;
     img {
       border-radius: 16px 16px 0 0;
@@ -185,10 +186,10 @@
   .info {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
     padding: 8px;
     align-items: center;
-    height: calc(40dvh - 120px - 16px);
+    min-height: calc(40dvh - 120px - 24px);
     > p {
       max-height: 60px;
       overflow: hidden;

@@ -28,10 +28,15 @@
 * {
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
-*:not(body) {
+*:not(body):not(.doodle) {
   transition: all 0.2s ease-in-out;
+}
+
+.doodle {
+  z-index: 99;
 }
 
 ::-webkit-scrollbar {

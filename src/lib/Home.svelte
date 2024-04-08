@@ -51,8 +51,8 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    height: fit-content;
-    max-height: 33.5dvh;
+    min-height: fit-content;
+    max-height: 36dvh;
 
     h3 {
       font-size: 24px;
@@ -86,6 +86,8 @@
       height: 4rem;
       min-height: 4rem;
       font-weight: 600;
+      margin-bottom: 4px;
+      margin-right: 4px;
     }
 
     button:hover,
@@ -119,7 +121,6 @@
     left: 20vmax;
     position: absolute;
     transform: rotate(77.33deg);
-    box-sizing: border-box;
   }
 
   .doodle:nth-child(4) {
