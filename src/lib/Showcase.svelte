@@ -28,7 +28,7 @@
   </article>
   <article id="vtools">
     <section class="left">
-      <img src="src/assets/v-tools.png" alt="V-Tools" />
+      <img src="assets/v-tools.png" alt="V-Tools" />
     </section>
     <section class="right">
       <section class="text">
@@ -73,11 +73,11 @@
   }
 
   #chocolate {
-    background-image: url("src/assets/chocolate_background.svg");
+    background-image: url("../assets/chocolate_background.svg");
   }
 
   #vtools {
-    background-image: url("src/assets/vtools_background.svg");
+    background-image: url("../assets/vtools_background.svg");
     margin-top: -16dvh;
   }
 

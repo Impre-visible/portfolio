@@ -17,13 +17,13 @@
       on:click={() =>
         window.open("https://itsfoss.com/vs-code-vs-codium/", "_blank")}
     >
-      <img src="src/assets/vscode.svg" alt="vscode" />
+      <img src="assets/vscode.svg" alt="vscode" />
     </button>
     <button
       class="git"
       on:click={() => window.open("https://github.com/Impre-visible", "_blank")}
     >
-      <img src="src/assets/git.svg" alt="git" />
+      <img src="assets/git.svg" alt="git" />
     </button>
   </article>
 </section>
@@ -303,7 +303,7 @@
   .presentation {
     height: 70dvh;
     width: 50%;
-    background-image: url("src/assets/presentation.png");
+    background-image: url("../assets/presentation.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

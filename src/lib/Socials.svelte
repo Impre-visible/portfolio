@@ -10,7 +10,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-image: url(src/assets/socials_background.svg);
+    background-image: url(../assets/socials_background.svg);
     height: 90dvh;
     background-repeat: no-repeat;
     background-size: cover;

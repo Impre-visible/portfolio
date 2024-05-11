@@ -137,7 +137,7 @@
 
 <style lang="scss">
   #github {
-    background: url("src/assets/github_background.svg");
+    background: url("../assets/github_background.svg");
     height: 105dvh;
     margin-top: -18dvh;
     width: 100vw;
