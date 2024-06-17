@@ -35,8 +35,8 @@
   #home {
     background: var(--pink);
     display: flex;
-    width: calc(100vw - 10vw);
-    padding: 7vw 5vw;
+    width: calc(100vw - 8vw);
+    padding: 7vw 4vw;
     justify-content: space-between;
     align-items: center;
   }
@@ -96,6 +96,7 @@
       margin-top: 4px;
       box-shadow: 1px 1px var(--black);
       cursor: pointer;
+      margin-bottom: 0px;
     }
 
     button:active {
@@ -117,23 +118,23 @@
 
   .doodle:nth-child(3) {
     background: var(--yellow);
-    bottom: 1.5vmax;
-    left: 20vmax;
+    bottom: 2.3vw;
+    left: 20.7vw;
     position: absolute;
     transform: rotate(77.33deg);
   }
 
   .doodle:nth-child(4) {
     background: var(--light-blue);
-    bottom: 7.85vmax;
-    left: 41.5vmax;
+    bottom: 8.7vw;
+    left: 43.125vw;
     transform: rotate(45deg);
   }
 
   .doodle:nth-child(5) {
     background: var(--orange);
-    bottom: 1.35vmax;
-    left: 63.2vmax;
+    bottom: 2vw;
+    left: 65.5vw;
     transform: rotate(-118.75deg);
     transform: rotate(-118.75deg);
   }

@@ -57,7 +57,7 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-left: 4vw;
     padding-right: 4vw;
@@ -79,6 +79,7 @@
   #vtools {
     background-image: url("../assets/vtools_background.svg");
     margin-top: -16dvh;
+    margin-left: 10px;
   }
 
   #vtools img {

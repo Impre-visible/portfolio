@@ -150,7 +150,7 @@
   }
   .doodle:nth-child(2) {
     top: 14.6vmax;
-    left: 44.75%;
+    left: 43.75%;
     rotate: -10deg;
   }
   .doodle:nth-child(3) {
@@ -160,10 +160,12 @@
   .repos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 20px;
     padding-top: 16%;
     pointer-events: none;
+    padding-left: 4vw;
+    padding-right: 4vw;
   }
   .repo {
     background: var(--white);
