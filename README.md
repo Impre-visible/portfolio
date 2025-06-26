@@ -1,69 +1,79 @@
-# React + TypeScript + Vite
+# Romeo Chevrier's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an interactive and modern portfolio designed to showcase the skills, projects, and contact information of Romeo Chevrier, an independent full-stack developer. It is built with modern technologies and focuses on performance, accessibility, and design.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend Framework**: React
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Build Tool**: Vite
+- **Class Management**: clsx and tailwind-merge
+- **Icon Library**: Lucide React
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **About Section**: Overview of skills and mastered technologies.
+- **Projects Section**: List of recent projects with details, used technologies, and links to source code or demos.
+- **Contact Section**: Information to get in touch, including email and GitHub profile.
+- **Responsive Design**: Adapted for all screen sizes.
+- **Terminal Mode**: Interactive element simulating a terminal for a unique visual effect.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Installation and Setup
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Prerequisites
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Node.js (version 16 or higher)
+- npm or yarn
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Impre-visible/portfolio.git
+   cd portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at [http://localhost:3000](http://localhost:3000).
+
+### Build for Production
+
+To generate an optimized production build:
+```bash
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The generated files will be available in the `dist` folder.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Project Structure
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **src/**: Contains the application's source code.
+  - **components/**: Reusable UI components.
+  - **lib/**: Utility functions.
+  - **index.css**: Global styles.
+- **public/**: Static files.
+- **vite.config.ts**: Vite configuration.
+- **tsconfig.app.json**: TypeScript configuration for the application.
+
+## Author
+
+**Romeo Chevrier**  
+Independent full-stack developer. Passionate about clean code and new technologies. Available for short-term projects.
+
+- **Email**: [romeo@chevrier.dev](mailto:romeo@chevrier.dev)
+- **GitHub**: [Impre-visible](https://github.com/Impre-visible)
+
+## License
+
+This project is licensed under MIT. See the [LICENSE](LICENSE) file for more details.
