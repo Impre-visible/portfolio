@@ -78,10 +78,10 @@ export default function Component() {
 
 
   return (
-    <div className="min-h-screen bg-black text-white font-mono">
+    <div className="min-h-screen bg-black text-white font-mono w-screen">
       {/* Header */}
       <header className="border-b border-white/20 px-6 py-4">
-        <nav className="max-w-6xl mx-auto flex justify-between items-center">
+        <nav className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center">
           <div className="text-xl font-bold">
             {"romeo_chevrier()"}
           </div>
