@@ -31,6 +31,17 @@ export default function Component() {
       license: "GPL-3.0",
     },
     {
+      id: 5,
+      name: "invoicerr",
+      description: "Invoicerr is a freelance-focused invoicing app that lets you create quotes, generate invoices, track payments, and collect secure signatures.",
+      image: "https://private-user-images.githubusercontent.com/69050895/460251389-18e8af88-cf02-4e35-975a-d57f58d062c6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTE2MTMwNTksIm5iZiI6MTc1MTYxMjc1OSwicGF0aCI6Ii82OTA1MDg5NS80NjAyNTEzODktMThlOGFmODgtY2YwMi00ZTM1LTk3NWEtZDU3ZjU4ZDA2MmM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzA0VDA3MDU1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUwOTZjNjYwOWE5MDBkYjQ1YTgyYjI4ZWJmMmY1NDQwYzc5NTcwNTk2ODgxMmEyMmYxZGU5YzA0MmE3MjZhOGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xHD6uFbigRompjtkVCYsoqslVsKsmENE7zn3qL4Zpfc",
+      stars: 94,
+      githubUrl: "https://github.com/Impre-visible/invoicerr",
+      liveUrl: null,
+      tech: ["TypeScript", "React", "Tailwind CSS", "shadcn/ui"],
+      license: "AGPL-3.0",
+    },
+    {
       id: 1,
       name: "Pomodoro-CLI",
       description: "A simple CLI tool to manage and start pomodoro sessions",
